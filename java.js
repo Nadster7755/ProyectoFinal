@@ -7,7 +7,7 @@ function Validar() {
     if (usuario == "admin" && clave == "1234") {
 
         //Si somos administrador nos vamos a una web administrador
-        window.location.pathname = '/administrador.html';
+        window.location.href = 'administrador.html';
 
 
 
@@ -19,7 +19,7 @@ function Validar() {
     if (usuario == "isidro" && clave == "isidro1234") {
 
         //Si somos usuario nos vamos a una web administrador
-        window.location.pathname = '/principal.html';
+        window.location.href = 'principal.html';
 
     } else {
         //Si algun dato está erroneo mostramos un mensaje
